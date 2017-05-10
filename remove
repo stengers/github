@@ -1,0 +1,2 @@
+//will remove all deleted files when removing
+git ls-files --deleted -z | xargs -0 git rm 
